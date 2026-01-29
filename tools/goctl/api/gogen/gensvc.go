@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
-	"github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/internal/version"
-	"github.com/zeromicro/go-zero/tools/goctl/util/format"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
-	"github.com/zeromicro/go-zero/tools/goctl/vars"
+	"github.com/liony823/go-zero/tools/goctl/api/spec"
+	"github.com/liony823/go-zero/tools/goctl/config"
+	"github.com/liony823/go-zero/tools/goctl/internal/version"
+	"github.com/liony823/go-zero/tools/goctl/util/format"
+	"github.com/liony823/go-zero/tools/goctl/util/pathx"
+	"github.com/liony823/go-zero/tools/goctl/vars"
 )
 
 const contextFilename = "service_context"

@@ -144,7 +144,7 @@ AI assistants use these tools together:
 
    ```shell
    # for Go
-   go install github.com/zeromicro/go-zero/tools/goctl@latest
+   go install github.com/liony823/go-zero/tools/goctl@latest
 
    # For Mac
    brew install goctl

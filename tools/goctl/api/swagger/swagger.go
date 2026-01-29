@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/go-openapi/spec"
-	apiSpec "github.com/zeromicro/go-zero/tools/goctl/api/spec"
-	"github.com/zeromicro/go-zero/tools/goctl/internal/version"
+	apiSpec "github.com/liony823/go-zero/tools/goctl/api/spec"
+	"github.com/liony823/go-zero/tools/goctl/internal/version"
 )
 
 func spec2Swagger(api *apiSpec.ApiSpec) (*spec.Swagger, error) {

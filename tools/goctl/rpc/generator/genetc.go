@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	conf "github.com/zeromicro/go-zero/tools/goctl/config"
-	"github.com/zeromicro/go-zero/tools/goctl/rpc/parser"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/format"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
-	"github.com/zeromicro/go-zero/tools/goctl/util/stringx"
+	conf "github.com/liony823/go-zero/tools/goctl/config"
+	"github.com/liony823/go-zero/tools/goctl/rpc/parser"
+	"github.com/liony823/go-zero/tools/goctl/util"
+	"github.com/liony823/go-zero/tools/goctl/util/format"
+	"github.com/liony823/go-zero/tools/goctl/util/pathx"
+	"github.com/liony823/go-zero/tools/goctl/util/stringx"
 )
 
 //go:embed etc.tpl

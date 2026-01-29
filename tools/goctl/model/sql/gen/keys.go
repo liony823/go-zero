@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/zeromicro/go-zero/tools/goctl/model/sql/parser"
-	"github.com/zeromicro/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/tools/goctl/util/stringx"
+	"github.com/liony823/go-zero/tools/goctl/model/sql/parser"
+	"github.com/liony823/go-zero/tools/goctl/util"
+	"github.com/liony823/go-zero/tools/goctl/util/stringx"
 )
 
 // Key describes cache key

@@ -12,11 +12,11 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/liony823/go-zero/tools/goctl/api/parser"
+	"github.com/liony823/go-zero/tools/goctl/api/spec"
+	"github.com/liony823/go-zero/tools/goctl/rpc/execx"
+	"github.com/liony823/go-zero/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/tools/goctl/api/parser"
-	"github.com/zeromicro/go-zero/tools/goctl/api/spec"
-	"github.com/zeromicro/go-zero/tools/goctl/rpc/execx"
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
 )
 
 const pluginArg = "_plugin"

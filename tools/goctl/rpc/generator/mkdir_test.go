@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/emicklei/proto"
+	"github.com/liony823/go-zero/tools/goctl/rpc/parser"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/tools/goctl/rpc/parser"
 )
 
 func TestServiceNameDetermination(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/zeromicro/go-zero/tools/goctl/util/pathx"
+	"github.com/liony823/go-zero/tools/goctl/util/pathx"
 )
 
 //go:embed request.ts

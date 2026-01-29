@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/liony823/go-zero/tools/goctl/api/gogen"
+	"github.com/liony823/go-zero/tools/goctl/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/zeromicro/go-zero/tools/goctl/api/gogen"
-	"github.com/zeromicro/go-zero/tools/goctl/config"
 )
 
 func TestDoGenProjectWithModule_Integration(t *testing.T) {
