@@ -30,6 +30,8 @@ type ZRpcContext struct {
 	Multiple bool
 	// Whether to generate rpc client
 	IsGenClient bool
+	// Whether to skip generating pb file
+	IsSkipPb bool
 	// Module is the custom module name for go.mod
 	Module string
 	// NameFromFilename uses proto filename instead of package name for service naming.
@@ -82,9 +84,11 @@ func (g *Generator) Generate(zctx *ZRpcContext) error {
 		return err
 	}
 
-	err = g.GenPb(dirCtx, zctx)
-	if err != nil {
-		return err
+	if !zctx.IsSkipPb {
+		err = g.GenPb(dirCtx, zctx)
+		if err != nil {
+			return err
+		}
 	}
 
 	err = g.GenConfig(dirCtx, proto, g.cfg)

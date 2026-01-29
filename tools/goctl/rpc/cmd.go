@@ -69,6 +69,7 @@ func init() {
 	protocCmdFlags.MarkHidden("plugin")
 	protocCmdFlags.MarkHidden("proto_path")
 	protocCmdFlags.BoolVarPWithDefaultValue(&cli.VarBoolClient, "client", "c", true)
+	protocCmdFlags.BoolVarPWithDefaultValue(&cli.VarBoolSkipPb, "skip_pb", "s", false)
 
 	templateCmdFlags.StringVar(&cli.VarStringOutput, "o")
 	templateCmdFlags.StringVar(&cli.VarStringHome, "home")

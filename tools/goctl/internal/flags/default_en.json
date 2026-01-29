@@ -241,7 +241,8 @@
         "branch": "{{.global.branch}}",
         "module": "Custom module name for go.mod (default: directory name)",
         "verbose": "Enable log output",
-        "client": "Whether to generate rpc client"
+        "client": "Whether to generate rpc client",
+        "skip_pb": "Whether to skip generating pb & grpc file"
       },
       "template": {
         "short": "Generate proto template",
