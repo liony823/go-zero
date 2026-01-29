@@ -8,9 +8,9 @@ import (
 	"math/rand"
 	"sync/atomic"
 
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/core/logx"
+	"github.com/liony823/go-zero/core/breaker"
+	"github.com/liony823/go-zero/core/errorx"
+	"github.com/liony823/go-zero/core/logx"
 )
 
 // spanName is used to identify the span name for the SQL execution.

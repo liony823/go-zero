@@ -103,9 +103,9 @@ Flags:
   -m, --multiple                 Generated in multiple rpc service mode
       --name-from-filename       Use proto filename instead of package name for service naming (legacy behavior)
       --remote string            The remote git repo of the template, --home and --remote cannot be set at the same time, if they are, --remote has higher priority
-                                 	The git repo directory must be consistent with the https://github.com/zeromicro/go-zero-template directory structure
+                                 	The git repo directory must be consistent with the https://github.com/liony823/go-zero-template directory structure
   -s, --skip_pb                  Whether to skip generating pb & grpc file
-      --style string             The file naming format, see [https://github.com/zeromicro/go-zero/tree/master/tools/goctl/config/readme.md] (default "gozero")
+      --style string             The file naming format, see [https://github.com/liony823/go-zero/tree/master/tools/goctl/config/readme.md] (default "gozero")
   -v, --verbose                  Enable log output
       --zrpc_out string          The zrpc output directory
 ```
@@ -155,7 +155,7 @@ Flags:
 
 
 ## rpc 服务生成 example
-详情见 [example/rpc](https://github.com/zeromicro/go-zero/tree/master/tools/goctl/example)
+详情见 [example/rpc](https://github.com/liony823/go-zero/tree/master/tools/goctl/example)
 
 ## --multiple 为 true 和 false 的目录区别
 源 proto 文件

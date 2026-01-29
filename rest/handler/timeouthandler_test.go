@@ -11,9 +11,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/liony823/go-zero/core/logx/logtest"
+	"github.com/liony823/go-zero/rest/internal/response"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
-	"github.com/zeromicro/go-zero/rest/internal/response"
 )
 
 func TestTimeoutWriteFlushOutput(t *testing.T) {

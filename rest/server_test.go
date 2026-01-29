@@ -14,14 +14,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/liony823/go-zero/core/conf"
+	"github.com/liony823/go-zero/core/logx/logtest"
+	"github.com/liony823/go-zero/rest/chain"
+	"github.com/liony823/go-zero/rest/httpx"
+	"github.com/liony823/go-zero/rest/internal/cors"
+	"github.com/liony823/go-zero/rest/internal/header"
+	"github.com/liony823/go-zero/rest/router"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/logx/logtest"
-	"github.com/zeromicro/go-zero/rest/chain"
-	"github.com/zeromicro/go-zero/rest/httpx"
-	"github.com/zeromicro/go-zero/rest/internal/cors"
-	"github.com/zeromicro/go-zero/rest/internal/header"
-	"github.com/zeromicro/go-zero/rest/router"
 )
 
 const (

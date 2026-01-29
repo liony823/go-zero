@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/liony823/go-zero/core/collection"
+	"github.com/liony823/go-zero/core/mathx"
+	"github.com/liony823/go-zero/core/stat"
+	"github.com/liony823/go-zero/core/syncx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/core/mathx"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/core/syncx"
 )
 
 const (

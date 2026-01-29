@@ -9,9 +9,9 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/liony823/go-zero/core/logx"
+	"github.com/liony823/go-zero/core/stringx"
 	red "github.com/redis/go-redis/v9"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/stringx"
 )
 
 const (

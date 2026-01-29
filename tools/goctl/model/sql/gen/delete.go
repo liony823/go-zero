@@ -4,11 +4,11 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/liony823/go-zero/core/collection"
 	"github.com/liony823/go-zero/tools/goctl/model/sql/template"
 	"github.com/liony823/go-zero/tools/goctl/util"
 	"github.com/liony823/go-zero/tools/goctl/util/pathx"
 	"github.com/liony823/go-zero/tools/goctl/util/stringx"
-	"github.com/zeromicro/go-zero/core/collection"
 )
 
 func genDelete(table Table, withCache, postgreSql bool) (string, string, error) {

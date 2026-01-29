@@ -1,4 +1,4 @@
-module github.com/zeromicro/go-zero
+module github.com/liony823/go-zero
 
 go 1.23.0
 

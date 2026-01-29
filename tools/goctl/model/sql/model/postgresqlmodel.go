@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"strings"
 
-	"github.com/zeromicro/go-zero/core/stores/sqlx"
+	"github.com/liony823/go-zero/core/stores/sqlx"
 )
 
 var p2m = map[string]string{

@@ -7,7 +7,7 @@ import (
 	"context"
 
 	"github.com/liony823/go-zero/tools/goctl/example/rpc/hello/pb/hello"
-	"github.com/zeromicro/go-zero/zrpc"
+	"github.com/liony823/go-zero/zrpc"
 	"google.golang.org/grpc"
 )
 

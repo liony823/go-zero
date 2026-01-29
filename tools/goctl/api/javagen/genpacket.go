@@ -7,10 +7,10 @@ import (
 	"strings"
 	"text/template"
 
+	"github.com/liony823/go-zero/core/stringx"
 	"github.com/liony823/go-zero/tools/goctl/api/spec"
 	apiutil "github.com/liony823/go-zero/tools/goctl/api/util"
 	"github.com/liony823/go-zero/tools/goctl/util"
-	"github.com/zeromicro/go-zero/core/stringx"
 )
 
 //go:embed packet.tpl

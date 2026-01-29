@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/liony823/go-zero/core/stringx"
 	"github.com/liony823/go-zero/tools/goctl/rpc/execx"
 	"github.com/liony823/go-zero/tools/goctl/util/pathx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/stringx"
 )
 
 func TestIsGoMod(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 	"os"
 	"path"
 
+	"github.com/liony823/go-zero/core/conf"
+	"github.com/liony823/go-zero/core/hash"
+	"github.com/liony823/go-zero/core/logx"
 	"github.com/liony823/go-zero/tools/goctl/update/config"
 	"github.com/liony823/go-zero/tools/goctl/util/pathx"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/hash"
-	"github.com/zeromicro/go-zero/core/logx"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/executors"
-	"github.com/zeromicro/go-zero/core/logx"
+	"github.com/liony823/go-zero/core/executors"
+	"github.com/liony823/go-zero/core/logx"
 	"go.mongodb.org/mongo-driver/v2/mongo"
 	"go.mongodb.org/mongo-driver/v2/mongo/options"
 )

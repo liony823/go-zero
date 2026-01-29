@@ -4,14 +4,14 @@ import (
 	"flag"
 	"fmt"
 
+	"github.com/liony823/go-zero/core/conf"
+	"github.com/liony823/go-zero/core/service"
 	"github.com/liony823/go-zero/tools/goctl/example/rpc/hi/internal/config"
 	eventServer "github.com/liony823/go-zero/tools/goctl/example/rpc/hi/internal/server/event"
 	greetServer "github.com/liony823/go-zero/tools/goctl/example/rpc/hi/internal/server/greet"
 	"github.com/liony823/go-zero/tools/goctl/example/rpc/hi/internal/svc"
 	"github.com/liony823/go-zero/tools/goctl/example/rpc/hi/pb/hi"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/service"
-	"github.com/zeromicro/go-zero/zrpc"
+	"github.com/liony823/go-zero/zrpc"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

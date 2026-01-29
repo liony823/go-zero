@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/liony823/go-zero/core/breaker"
+	"github.com/liony823/go-zero/core/errorx"
+	"github.com/liony823/go-zero/core/logx"
+	"github.com/liony823/go-zero/core/mapping"
+	"github.com/liony823/go-zero/core/syncx"
 	red "github.com/redis/go-redis/v9"
-	"github.com/zeromicro/go-zero/core/breaker"
-	"github.com/zeromicro/go-zero/core/errorx"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/core/mapping"
-	"github.com/zeromicro/go-zero/core/syncx"
 )
 
 const (

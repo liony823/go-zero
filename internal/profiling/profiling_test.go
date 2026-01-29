@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/grafana/pyroscope-go"
+	"github.com/liony823/go-zero/core/conf"
+	"github.com/liony823/go-zero/core/syncx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/syncx"
 )
 
 func TestStart(t *testing.T) {

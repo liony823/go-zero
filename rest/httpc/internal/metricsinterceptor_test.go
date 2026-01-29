@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/liony823/go-zero/core/logx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/logx"
 )
 
 func TestMetricsInterceptor(t *testing.T) {

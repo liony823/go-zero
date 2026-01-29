@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/liony823/go-zero/core/collection"
+	"github.com/liony823/go-zero/core/proc"
+	"github.com/liony823/go-zero/core/timex"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/collection"
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/timex"
 )
 
 func TestNextDelay(t *testing.T) {

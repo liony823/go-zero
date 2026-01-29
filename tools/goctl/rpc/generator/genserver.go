@@ -6,13 +6,13 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/liony823/go-zero/core/collection"
 	conf "github.com/liony823/go-zero/tools/goctl/config"
 	"github.com/liony823/go-zero/tools/goctl/rpc/parser"
 	"github.com/liony823/go-zero/tools/goctl/util"
 	"github.com/liony823/go-zero/tools/goctl/util/format"
 	"github.com/liony823/go-zero/tools/goctl/util/pathx"
 	"github.com/liony823/go-zero/tools/goctl/util/stringx"
-	"github.com/zeromicro/go-zero/core/collection"
 )
 
 const functionTemplate = `

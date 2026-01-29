@@ -3,9 +3,9 @@ package mcp
 import (
 	"net/http"
 
+	"github.com/liony823/go-zero/core/logx"
+	"github.com/liony823/go-zero/rest"
 	sdkmcp "github.com/modelcontextprotocol/go-sdk/mcp"
-	"github.com/zeromicro/go-zero/core/logx"
-	"github.com/zeromicro/go-zero/rest"
 )
 
 // McpServer defines the interface for Model Context Protocol servers using the official SDK

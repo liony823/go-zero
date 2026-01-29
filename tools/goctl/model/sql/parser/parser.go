@@ -6,13 +6,13 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/liony823/go-zero/core/collection"
 	"github.com/liony823/go-zero/tools/goctl/model/sql/converter"
 	"github.com/liony823/go-zero/tools/goctl/model/sql/model"
 	"github.com/liony823/go-zero/tools/goctl/model/sql/util"
 	"github.com/liony823/go-zero/tools/goctl/util/console"
 	"github.com/liony823/go-zero/tools/goctl/util/stringx"
 	"github.com/zeromicro/ddl-parser/parser"
-	"github.com/zeromicro/go-zero/core/collection"
 )
 
 const timeImport = "time.Time"

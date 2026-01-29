@@ -5,11 +5,11 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/liony823/go-zero/core/logx"
 	"github.com/liony823/go-zero/tools/goctl/util/console"
 	"github.com/liony823/go-zero/tools/goctl/util/ctx"
 	"github.com/liony823/go-zero/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/core/logx"
 )
 
 const baseDir = "greet"

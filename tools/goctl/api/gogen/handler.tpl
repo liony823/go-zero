@@ -6,7 +6,7 @@ package {{.PkgName}}
 import (
 	"net/http"
 
-	"github.com/zeromicro/go-zero/rest/httpx"
+	"github.com/liony823/go-zero/rest/httpx"
 	{{.ImportPackages}}
 )
 

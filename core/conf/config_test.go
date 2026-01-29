@@ -6,9 +6,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/liony823/go-zero/core/fs"
+	"github.com/liony823/go-zero/core/hash"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/fs"
-	"github.com/zeromicro/go-zero/core/hash"
 )
 
 var dupErr conflictKeyError

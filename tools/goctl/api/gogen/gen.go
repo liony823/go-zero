@@ -12,6 +12,7 @@ import (
 	"time"
 
 	"github.com/gookit/color"
+	"github.com/liony823/go-zero/core/logx"
 	apiformat "github.com/liony823/go-zero/tools/goctl/api/format"
 	"github.com/liony823/go-zero/tools/goctl/api/parser"
 	apiutil "github.com/liony823/go-zero/tools/goctl/api/util"
@@ -20,7 +21,6 @@ import (
 	"github.com/liony823/go-zero/tools/goctl/util"
 	"github.com/liony823/go-zero/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/core/logx"
 )
 
 const tmpFile = "%s-%d"

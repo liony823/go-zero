@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/zeromicro/go-zero/core/proc"
-	"github.com/zeromicro/go-zero/core/stat"
-	"github.com/zeromicro/go-zero/core/stringx"
+	"github.com/liony823/go-zero/core/proc"
+	"github.com/liony823/go-zero/core/stat"
+	"github.com/liony823/go-zero/core/stringx"
 )
 
 const numHistoryReasons = 5

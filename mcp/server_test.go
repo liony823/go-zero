@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/liony823/go-zero/core/conf"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/conf"
 )
 
 func TestNewMcpServer(t *testing.T) {

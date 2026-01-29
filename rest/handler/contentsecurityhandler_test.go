@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/liony823/go-zero/core/codec"
+	"github.com/liony823/go-zero/rest/httpx"
 	"github.com/stretchr/testify/assert"
-	"github.com/zeromicro/go-zero/core/codec"
-	"github.com/zeromicro/go-zero/rest/httpx"
 )
 
 const timeDiff = time.Hour * 2 * 24

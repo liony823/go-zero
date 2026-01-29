@@ -11,13 +11,13 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/liony823/go-zero/core/errorx"
 	"github.com/liony823/go-zero/tools/goctl/api/parser"
 	"github.com/liony823/go-zero/tools/goctl/api/util"
 	"github.com/liony823/go-zero/tools/goctl/pkg/env"
 	apiF "github.com/liony823/go-zero/tools/goctl/pkg/parser/api/format"
 	"github.com/liony823/go-zero/tools/goctl/util/pathx"
 	"github.com/spf13/cobra"
-	"github.com/zeromicro/go-zero/core/errorx"
 )
 
 const (

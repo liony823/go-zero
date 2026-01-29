@@ -3,12 +3,12 @@ package zrpc
 import (
 	"testing"
 
+	zconf "github.com/liony823/go-zero/core/conf"
+	"github.com/liony823/go-zero/core/discov"
+	"github.com/liony823/go-zero/core/service"
+	"github.com/liony823/go-zero/core/stores/redis"
+	"github.com/liony823/go-zero/zrpc/internal/balancer/p2c"
 	"github.com/stretchr/testify/assert"
-	zconf "github.com/zeromicro/go-zero/core/conf"
-	"github.com/zeromicro/go-zero/core/discov"
-	"github.com/zeromicro/go-zero/core/service"
-	"github.com/zeromicro/go-zero/core/stores/redis"
-	"github.com/zeromicro/go-zero/zrpc/internal/balancer/p2c"
 )
 
 func TestRpcClientConf(t *testing.T) {
